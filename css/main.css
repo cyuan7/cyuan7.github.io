@@ -1219,7 +1219,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #6fc17f;
+  background: #cbdeed;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1566,12 +1566,12 @@ pre .javascript .function {
 .reading-progress-bar {
   background: #37c6c0;
   display: block;
-  height: 3px;
+  height: 4px;
   left: 0;
   position: fixed;
   width: 0;
   z-index: 1500;
-  bottom: 0;
+  top: 0;
 }
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
