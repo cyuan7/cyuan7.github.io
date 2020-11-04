@@ -9,7 +9,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我的世界，天大地大</description>
-    <pubDate>Tue, 03 Nov 2020 00:55:38 GMT</pubDate>
+    <pubDate>Tue, 03 Nov 2020 14:26:40 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -18,9 +18,18 @@
       <guid>http://example.com/2020/11/03/%E4%B8%8D%E6%8A%98%E8%85%BE%E7%89%88%E8%B7%91%E6%AD%A5%E6%8C%87%E5%8D%97/</guid>
       <pubDate>Tue, 03 Nov 2020 00:55:38 GMT</pubDate>
       
+      <description>&lt;p&gt;通过这篇博文，您将会知道&lt;strong&gt;跑步前&lt;/strong&gt;的基本准备（热身，穿搭，进食时间等），&lt;strong&gt;跑步中&lt;/strong&gt;的呼吸，跑姿以及配速注意，&lt;strong&gt;跑步后&lt;/strong&gt;的拉伸等注意事项。&lt;/p&gt;
+&lt;p&gt;注意，笔者只是日常跑步爱好者，因此本篇内容仅能提供基本的注意点，只求不折腾，在最适合自己的前提下不折腾就好啦。&lt;/p&gt;</description>
       
       
       
+      <content:encoded><![CDATA[<p>通过这篇博文，您将会知道<strong>跑步前</strong>的基本准备（热身，穿搭，进食时间等），<strong>跑步中</strong>的呼吸，跑姿以及配速注意，<strong>跑步后</strong>的拉伸等注意事项。</p><p>注意，笔者只是日常跑步爱好者，因此本篇内容仅能提供基本的注意点，只求不折腾，在最适合自己的前提下不折腾就好啦。</p><a id="more"></a><h1 id="跑步前"><a href="#跑步前" class="headerlink" title="跑步前"></a>跑步前</h1><p>在下定决心跑步之前（很多人确实需要很大的决心），我们需要心中明确以下几点：去哪里跑，跑多久，该穿什么，自己的大致配速；并切实准备一下事项：</p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/">生活日常</category>
+      
+      
+      <category domain="http://example.com/tags/%E8%BF%90%E5%8A%A8-%E8%B7%91%E6%AD%A5/">运动, 跑步</category>
       
       
       <comments>http://example.com/2020/11/03/%E4%B8%8D%E6%8A%98%E8%85%BE%E7%89%88%E8%B7%91%E6%AD%A5%E6%8C%87%E5%8D%97/#disqus_thread</comments>
