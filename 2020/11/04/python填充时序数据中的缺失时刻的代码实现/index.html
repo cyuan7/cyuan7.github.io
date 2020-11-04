@@ -23,24 +23,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":-1,"unescape":true,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="在这篇博客，你将理解IPv6离我们有多近，并简单测试自己的网络是否支持IPv6，以及利用支持IPv6的网络可以实现什么功能。笔者水平有限，因此本博客不涉及太多原理部分，只涉及该技术的使用。">
+  <meta name="description" content="本篇博文给出了用python的datetime模块填充时序数据中的缺失时刻的思路，并附上代码实现。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="IPv6入门级理解及常用功能">
-<meta property="og:url" content="http://example.com/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/index.html">
+<meta property="og:title" content="python填充时序数据中的缺失时刻的代码实现">
+<meta property="og:url" content="http://example.com/2020/11/04/python%E5%A1%AB%E5%85%85%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E4%B8%AD%E7%9A%84%E7%BC%BA%E5%A4%B1%E6%97%B6%E5%88%BB%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/index.html">
 <meta property="og:site_name" content="blog-cyuan7">
-<meta property="og:description" content="在这篇博客，你将理解IPv6离我们有多近，并简单测试自己的网络是否支持IPv6，以及利用支持IPv6的网络可以实现什么功能。笔者水平有限，因此本博客不涉及太多原理部分，只涉及该技术的使用。">
+<meta property="og:description" content="本篇博文给出了用python的datetime模块填充时序数据中的缺失时刻的思路，并附上代码实现。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/1.png">
-<meta property="og:image" content="http://example.com/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/2.png">
-<meta property="og:image" content="http://example.com/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/3.png">
-<meta property="article:published_time" content="2020-11-01T16:00:00.000Z">
-<meta property="article:modified_time" content="2020-11-03T00:51:16.390Z">
+<meta property="article:published_time" content="2020-11-04T12:14:59.000Z">
+<meta property="article:modified_time" content="2020-11-04T12:34:52.984Z">
 <meta property="article:author" content="Cyuan">
-<meta property="article:tag" content="IPv6">
+<meta property="article:tag" content="python，datetime">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/1.png">
 
-<link rel="canonical" href="http://example.com/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/">
+<link rel="canonical" href="http://example.com/2020/11/04/python%E5%A1%AB%E5%85%85%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E4%B8%AD%E7%9A%84%E7%BC%BA%E5%A4%B1%E6%97%B6%E5%88%BB%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/">
 
 
 <script id="page-configurations">
@@ -53,7 +49,7 @@
   };
 </script>
 
-  <title>IPv6入门级理解及常用功能 | blog-cyuan7</title>
+  <title>python填充时序数据中的缺失时刻的代码实现 | blog-cyuan7</title>
   
 
 
@@ -206,7 +202,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/04/python%E5%A1%AB%E5%85%85%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E4%B8%AD%E7%9A%84%E7%BC%BA%E5%A4%B1%E6%97%B6%E5%88%BB%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/5.gif">
@@ -219,7 +215,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          IPv6入门级理解及常用功能
+          python填充时序数据中的缺失时刻的代码实现
         </h1>
 
         <div class="post-meta">
@@ -230,16 +226,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-11-02 00:00:00" itemprop="dateCreated datePublished" datetime="2020-11-02T00:00:00+08:00">2020-11-02</time>
+              <time title="创建时间：2020-11-04 20:14:59 / 修改时间：20:34:52" itemprop="dateCreated datePublished" datetime="2020-11-04T20:14:59+08:00">2020-11-04</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-11-03 08:51:16" itemprop="dateModified" datetime="2020-11-03T08:51:16+08:00">2020-11-03</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -247,6 +237,10 @@
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">实用技术</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/python/" itemprop="url" rel="index"><span itemprop="name">python</span></a>
                 </span>
             </span>
 
@@ -266,8 +260,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/11/04/python%E5%A1%AB%E5%85%85%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E4%B8%AD%E7%9A%84%E7%BC%BA%E5%A4%B1%E6%97%B6%E5%88%BB%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/11/04/python%E5%A1%AB%E5%85%85%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E4%B8%AD%E7%9A%84%E7%BC%BA%E5%A4%B1%E6%97%B6%E5%88%BB%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -277,7 +271,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>713</span>
+              <span>657</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -296,24 +290,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>在这篇博客，你将理解IPv6离我们有多近，并简单测试自己的网络是否支持IPv6，以及利用支持IPv6的网络可以实现什么功能。笔者水平有限，因此本博客不涉及太多原理部分，只涉及该技术的使用。</p>
+        <p>本篇博文给出了用python的datetime模块填充时序数据中的缺失时刻的思路，并附上代码实现。</p>
 <a id="more"></a>
 
-<h2 id="查看是否支持IPv6协议"><a href="#查看是否支持IPv6协议" class="headerlink" title="查看是否支持IPv6协议"></a>查看是否支持IPv6协议</h2><p>每个网络一定支持IPv4网络地址（静态或动态），但不一定支持IPv6，一个简单的方法是百度IPv6的测试网址，比如<a target="_blank" rel="noopener" href="http://www.test-ipv6.com/">http://www.test-ipv6.com/</a>，或者更简单的<a target="_blank" rel="noopener" href="https://ipv6.baidu.com/">ipv6.baidu.com</a>，若能百度一下，说明支持。</p>
-<h2 id="查看自己的IPv6地址"><a href="#查看自己的IPv6地址" class="headerlink" title="查看自己的IPv6地址"></a>查看自己的IPv6地址</h2><p>一般来说，IPv6的地址都是自动获取，所以在控制面板→网络和Internet→网络连接→网络属性中并不能查看地址，如下图：</p>
-<img src="/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/1.png" class title="This is an example image">
+<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>原始的时序数据可能会出现时刻缺失的情况，例如[2020/11/01,2020/11/02,2020/11/05,2020/11/06……]，缺失11月3日和11月4日，如果不对缺失的时刻填充，那么每天/每月等时间尺度下，不同用户的时刻将无法对齐。</p>
+<h1 id="解决思路"><a href="#解决思路" class="headerlink" title="解决思路"></a>解决思路</h1><p>本文采用<code>python</code>语言下的<code>datetime</code>模块实现该功能，主要原理包括统计每个时刻缺失处的缺失时刻数，并在填充后实时将数据的指针指向填充后的正确行号。</p>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> datetime <span class="keyword">as</span> dt</span><br><span class="line">list_n=<span class="number">1</span></span><br><span class="line"><span class="keyword">for</span> t <span class="keyword">in</span> <span class="built_in">range</span>(len_time<span class="number">-1</span>):       </span><br><span class="line">    tt=<span class="number">0</span>    <span class="comment">#用以避免空了多个时刻</span></span><br><span class="line">    <span class="keyword">while</span> np_time[t]+dt.timedelta(days=tt+<span class="number">1</span>)!=np_time[t+<span class="number">1</span>]:            </span><br><span class="line">        E_1=np.insert(E_1, t+list_n+tt, values=df_user.iloc[t,<span class="number">1</span>]+dt.timedelta(days=tt+<span class="number">1</span>), axis=<span class="number">0</span>)</span><br><span class="line">        tt+=<span class="number">1</span></span><br><span class="line">    list_n=tt</span><br></pre></td></tr></table></figure>
 
-<p>需要在状态栏点击网络标志，进入自己连接的网络属性（以有线网为例，如下图）</p>
-<img src="/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/2.png" class title="This is an example image">
-
-<p>下拉查看自己的IPv6地址，如下图，其中，我们用到的是第一个“IPv6地址”后的地址，第二个不用管。</p>
-<img src="/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/3.png" class title="This is an example image">
-
-
-
-<h2 id="利用IPv6可以干什么"><a href="#利用IPv6可以干什么" class="headerlink" title="利用IPv6可以干什么"></a>利用IPv6可以干什么</h2><p>目前很多比较出名的<strong>校园PT资源站</strong>均实现了IPv6连接（有的学校甚至不支持rvpn登录，反而支持外网的v6登录），在校大学生不要错过一些好用的资源站，而且，通过IPv6连接下载或上传资源时，不会消耗流量，只占用带宽，对流量有限的同学更加友好；</p>
-<p>除了资源站，还有一些大学公开的IPv6的应用网站，可以收看电视直播，比如<a target="_blank" rel="noopener" href="http://tv.byr.cn/show">北洋园</a>，<a target="_blank" rel="noopener" href="https://iptv.tsinghua.edu.cn/v2/list/channel/%E9%AB%98%E6%B8%85%E9%A2%91%E9%81%93">清华IPTV</a>等，同样不消耗流量，支持的央视及地方台也比较丰富。</p>
-<p>最后，电脑的<strong>远程连接</strong>也支持采用IPv6地址进行连接（据说稳定性和实时性更好，但是笔者未测试过，因此不能保证），使用方法和IPv4相似，只需要输入自己的v6地址即可（电脑默认端口都是3389）。不过用v6来远程的使用场景较少，大家一般更喜欢用v4(毕竟地址好记)。</p>
+<p>代码中，<code>len_time</code>为原始时间序列的长度，<code>np_time</code>为包含该时间序列的原始数据矩阵，<code>E_1</code>为<code>np_time</code>中时间序列一维数组，通过<code>numpy</code>库的插入函数，将缺失的时刻作为<code>values</code>值，插入到指定的<code>t+list_n+tt</code>行中，<code>tt</code>用以统计每次填充时的缺失时刻的数量（时刻缺失可能一连缺失好几个），<code>list_n</code>用来统计每次填充的<code>tt</code>之和。</p>
 
     </div>
 
@@ -339,7 +323,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://example.com/2020/11/02/IPv6%E5%85%A5%E9%97%A8%E7%BA%A7%E7%90%86%E8%A7%A3%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/" title="IPv6入门级理解及常用功能">http://example.com/2020/11/02/IPv6入门级理解及常用功能/</a>
+    <a href="http://example.com/2020/11/04/python%E5%A1%AB%E5%85%85%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E4%B8%AD%E7%9A%84%E7%BC%BA%E5%A4%B1%E6%97%B6%E5%88%BB%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/" title="python填充时序数据中的缺失时刻的代码实现">http://example.com/2020/11/04/python填充时序数据中的缺失时刻的代码实现/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -379,7 +363,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/IPv6/" rel="tag"># IPv6</a>
+              <a href="/tags/python%EF%BC%8Cdatetime/" rel="tag"># python，datetime</a>
           </div>
 
         
@@ -388,13 +372,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/11/01/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E5%85%B3%E4%BA%8E%E6%88%91/" rel="prev" title="关于博客关于我">
-      <i class="fa fa-chevron-left"></i> 关于博客关于我
+    <a href="/2020/11/03/%E4%B8%8D%E6%8A%98%E8%85%BE%E7%89%88%E8%B7%91%E6%AD%A5%E6%8C%87%E5%8D%97/" rel="prev" title="不折腾版跑步指南">
+      <i class="fa fa-chevron-left"></i> 不折腾版跑步指南
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/11/03/%E4%B8%8D%E6%8A%98%E8%85%BE%E7%89%88%E8%B7%91%E6%AD%A5%E6%8C%87%E5%8D%97/" rel="next" title="不折腾版跑步指南">
-      不折腾版跑步指南 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -454,7 +435,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E6%98%AF%E5%90%A6%E6%94%AF%E6%8C%81IPv6%E5%8D%8F%E8%AE%AE"><span class="nav-number">1.</span> <span class="nav-text">查看是否支持IPv6协议</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E8%87%AA%E5%B7%B1%E7%9A%84IPv6%E5%9C%B0%E5%9D%80"><span class="nav-number">2.</span> <span class="nav-text">查看自己的IPv6地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%A9%E7%94%A8IPv6%E5%8F%AF%E4%BB%A5%E5%B9%B2%E4%BB%80%E4%B9%88"><span class="nav-number">3.</span> <span class="nav-text">利用IPv6可以干什么</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0"><span class="nav-number">1.</span> <span class="nav-text">问题描述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF"><span class="nav-number">2.</span> <span class="nav-text">解决思路</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81"><span class="nav-number">3.</span> <span class="nav-text">代码</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
