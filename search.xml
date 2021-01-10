@@ -22,13 +22,40 @@
 ]]></content>
   </entry>
   <entry>
+    <title>至安啊，抵达安宁了吗——《我的大叔》</title>
+    <url>/2021/01/10/%E8%87%B3%E5%AE%89%E5%95%8A%EF%BC%8C%E6%8A%B5%E8%BE%BE%E5%AE%89%E5%AE%81%E4%BA%86%E5%90%97%E2%80%94%E2%80%94%E3%80%8A%E6%88%91%E7%9A%84%E5%A4%A7%E5%8F%94%E3%80%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>喜欢作为女歌手的IU</title>
+    <url>/2020/12/25/%E5%96%9C%E6%AC%A2%E4%BD%9C%E4%B8%BA%E5%A5%B3%E6%AD%8C%E6%89%8B%E7%9A%84IU/</url>
+    <content><![CDATA[<p>在韩娱，跳而优则唱，唱而优则演，爱豆、歌手、演员这样的形象都是比较区分鲜明的，光是男团女团出道的爱豆竞争就已经非常激烈了。但就是有一位偶像，同时把歌手、爱豆和演员的形象都经营得相当不错，取得了非常高得成就。因为我是听歌入坑的，所以，更加喜欢安静唱歌的——李知恩（IU）</p>
+<a id="more"></a>
+
+<h1 id="一首《好日子》，让自己过上好日子"><a href="#一首《好日子》，让自己过上好日子" class="headerlink" title="一首《好日子》，让自己过上好日子"></a>一首《好日子》，让自己过上好日子</h1><p>一开始听到IU还是康哥的鼎力推荐，19年的夏天？在车载音响里首次听到了《好日子》，听到了三段高音，后来慢慢有意无意地去了解，知道有这样的一位歌手，就在不远的韩国，一人可以顶多支女团的存在。</p>
+<h1 id="2019年的《Love-Poem》专辑，正式入坑"><a href="#2019年的《Love-Poem》专辑，正式入坑" class="headerlink" title="2019年的《Love Poem》专辑，正式入坑"></a>2019年的《Love Poem》专辑，正式入坑</h1><p>通过多次在网易云上听到IU的一些不错的歌曲，《你和我》之类的，慢慢也开始收藏她的歌曲，于是，在2019年的冬天，听到了这么一个专辑（还好在网易云免费哈哈），听到了《Blueming》这首歌，当时就惊艳到了有没有~</p>
+]]></content>
+      <categories>
+        <category>爱好分享</category>
+        <category>音乐</category>
+      </categories>
+      <tags>
+        <tag>IU</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>汇总——写python时的常见错误</title>
     <url>/2020/12/09/%E6%B1%87%E6%80%BB%E2%80%94%E2%80%94%E5%86%99python%E6%97%B6%E7%9A%84%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF/</url>
     <content><![CDATA[<p>专门开一篇来记录写python时非常容易遇到的坑。</p>
 <a id="more"></a>
 
 <h1 id="n-和-n-1-是不一样的"><a href="#n-和-n-1-是不一样的" class="headerlink" title="(n,)和(n,1)是不一样的"></a>(n,)和(n,1)是不一样的</h1><p>前者为n维向量，后者为n×1的数组，两者不能堆叠，且对于</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">a=np.ones([<span class="number">10</span>,<span class="number">1</span>])</span><br><span class="line">b=a[<span class="number">2</span>:<span class="number">7</span>,<span class="number">0</span>]  <span class="comment">#此时b为(n,)格式</span></span><br><span class="line">c=np.vstcak((a,b.reshape(<span class="number">-1</span>,<span class="number">1</span>)))  <span class="comment">#将b转换为n×1的数组，这样才能堆叠</span></span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">a=np.ones([<span class="number">10</span>,<span class="number">1</span>])</span><br><span class="line">b=a[<span class="number">2</span>:<span class="number">7</span>,<span class="number">0</span>]  <span class="comment">#此时b为(n,)格式</span></span><br><span class="line">c=np.vstcak((a,b.reshape(<span class="number">-1</span>,<span class="number">1</span>)))  <span class="comment">#将b转换为n×1的数组，这样才能堆叠</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="spyder添加除默认路径外的其他路径"><a href="#spyder添加除默认路径外的其他路径" class="headerlink" title="spyder添加除默认路径外的其他路径"></a>spyder添加除默认路径外的其他路径</h1><p>我记得以前spyder的默认路径包括当前程序文件的同一文件夹来着，如果更新后报错，需要添加下面代码，使得读取相关路径（一般自己定义函数文件时会用到）</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line">sys.path.append(<span class="string">&quot;D:\\Program Files\\OneDrive - zju.edu.cn\\研究生\\3.广州-窃电分析\\5.论文\\程序&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+]]></content>
       <categories>
         <category>实用技术</category>
       </categories>
