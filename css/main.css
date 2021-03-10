@@ -1194,7 +1194,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffffda;
+  background: #5cffeb;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2769,7 +2769,7 @@ mjx-container + br {
   }
 }
 body {
-  background: url("/images/1.png");
+  background: url("/images/1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2800,8 +2800,8 @@ pre {
 }
 .main-inner {
   background: #fff;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .header-inner {
-  opacity: 0.8;
+  opacity: 0.5;
 }
