@@ -30,6 +30,20 @@
       </tags>
   </entry>
   <entry>
+    <title>mat在Matlab和Python中的小差别</title>
+    <url>/2020/11/08/mat%E5%9C%A8MATLAB%E5%92%8CPYTHON%E4%B8%AD%E7%9A%84%E5%B0%8F%E5%B7%AE%E5%88%AB/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>在Matlab中，mat文件包含各个“名称”以及对应的“值”，其中名称以变量的形式存在；在Python中，mat文件以字典的格式存储，“名称”是字典的key。</p>
+<p>为了在两种语言中顺利切换，在建立mat文件时，最好同时满足Matlab的变量定义要求和Python的字典键值定义要求。</p>
+]]></content>
+      <categories>
+        <category>实用技术</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>matlab</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python填充时序数据中的缺失时刻的代码实现</title>
     <url>/2020/11/04/python%E5%A1%AB%E5%85%85%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E4%B8%AD%E7%9A%84%E7%BC%BA%E5%A4%B1%E6%97%B6%E5%88%BB%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/</url>
     <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>本篇博文给出了用<code>python</code>中的<code>datetime</code>模块填充时序数据中的缺失时刻的思路，并附上代码实现。</p>
@@ -48,20 +62,6 @@
       <tags>
         <tag>python</tag>
         <tag>时序数列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mat在Matlab和Python中的小差别</title>
-    <url>/2020/11/08/mat%E5%9C%A8MATLAB%E5%92%8CPYTHON%E4%B8%AD%E7%9A%84%E5%B0%8F%E5%B7%AE%E5%88%AB/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>在Matlab中，mat文件包含各个“名称”以及对应的“值”，其中名称以变量的形式存在；在Python中，mat文件以字典的格式存储，“名称”是字典的key。</p>
-<p>为了在两种语言中顺利切换，在建立mat文件时，最好同时满足Matlab的变量定义要求和Python的字典键值定义要求。</p>
-]]></content>
-      <categories>
-        <category>实用技术</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>matlab</tag>
       </tags>
   </entry>
   <entry>
@@ -143,6 +143,38 @@
 ]]></content>
   </entry>
   <entry>
+    <title>低成本低分雅思备考心得</title>
+    <url>/2022/01/30/%E4%BD%8E%E6%88%90%E6%9C%AC%E4%BD%8E%E5%88%86%E9%9B%85%E6%80%9D%E5%A4%87%E8%80%83%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><h1 id="写作初衷"><a href="#写作初衷" class="headerlink" title="写作初衷"></a>写作初衷</h1><p>最近过年在家挣扎地写research proposal中，太无聊了，所以想记录下自己考雅思的小小体验，也希望给准备考雅思的同学有所帮助。我最开始的目标是能过目标学校的最低分数线（雅思总分不低于6，各小项不低于5.5），这个分数线很低，所以我重点想分享的就是如何短时间低支出地过线，自动就能超过这一分数线的大佬无需再看。</p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="个人背景"><a href="#个人背景" class="headerlink" title="个人背景"></a>个人背景</h2><p>准确的说，我是在2022年1月22日参加了雅思机考，然后三天后的25号拿到的雅思成绩。成绩是听力6.5，阅读9.0，写作6.5，口语6.0，总分7.0，其实也算超出自己预期了，自我感觉已经是自己在短时间备考的上限了，再想拔高可能就需要长线/报班备考了。</p>
+<p>我是应届硕士研究生，去年也参加了秋招，找到了相对满意的工作，但终归还是读博的意难平，最后在12月份左右试着联系了港校老师，想试试申请境外的phd，最后一番选择下，也顺利和老师达成了口头协议，只要满足英语要求就可以申请（导师的话语权比较大）。说实话，这个最低要求应该是申请高校的最低分数要求了，这也使得我短时间备考没有那么困难。我大概12月上旬开始准备，首先是看攻略买指导书（后面会详细讲用到了资料），官网报名（因为自己评估后觉得机考更适合自己，又赶上杭州取消了整个1月份的雅思考试，所以我就打算寒假回家时考，最后 报名了家乡的省会城市考点，期间还各种因为疫情而担心考不了试，心累…），然后再投入到日常的备考中。整个备考时间也没有很长，而且期间还有导师的各种任务，以及本人的毕业论文等事情，但总归还是有较为充裕的时间来达到这一条件的。</p>
+<h2 id="参考资料及使用范围"><a href="#参考资料及使用范围" class="headerlink" title="参考资料及使用范围"></a>参考资料及使用范围</h2><p>主要资料就是剑雅（自己实际只做了10-16），顾家北手把手教写作，王陆听力语料库，tb买的写作批改，tb买的口语素材，以及购买的学姐一对一模拟课程。指导书大概花了100元，写作批改150左右，模拟课程1小时80元左右（买了三次），所以大概支出也不高，对于低分要求的我来说完全可以接受，下面是自己主要的使用范围：</p>
+<p>剑雅：10-16的听力部分，以及10-11的阅读部分（阅读就做了几次，发现这个过线最容易，后面就不再关心了）。</p>
+<p>顾家北：加速完成上面的31天任务（加速完成），学会写作的思路和技巧。</p>
+<p>听力语料库：时间原因主要是听写了名词部分，以及生存部分（数字和字母的组合）。</p>
+<p>写作批改：用新东方的机考模拟软件写作，写完给外教批改，可能是花钱比较少，其实外教给的建议也不多，感觉没有很值，花钱买心安吧。</p>
+<p>口语素材：大概了解回答的长度和套路，主要是整理出应对part2的故事线（用七八的故事串联50个左右的话题）。</p>
+<p>口语一对一：模拟口语考试，学姐还会给出不足和改进方法。</p>
+<h1 id="日常备考"><a href="#日常备考" class="headerlink" title="日常备考"></a>日常备考</h1><h2 id="口语"><a href="#口语" class="headerlink" title="口语"></a>口语</h2><p>口语是我花时间最多的部分，因为我考前给自己的评估就是5-5.5，所以直到考前也没有很放松，结果考官比较耐心，考的话题自己也比较熟悉，所以有些超常发挥了。</p>
+<p>刚开始，我也是一头雾水，不知道该怎么复习，主要是不知道有哪些题库，以及怎么回答，虽然早就知道雅思哥app，但是自己一开始并不知道怎么正确使用。所以我刚开始是先买了口语素材，看到商家准备好的回答内容，以及整理的故事线，自己才大概明白该怎么准备。我花了20天左右的时间，参考形成了属于自己的七八条故事线，然后随意刷一些part1的题目，并自由发挥来回答，主要以熟悉题库为主。</p>
+<p>后来发现，这样做是比较浪费时间的，在1月初第一次约学姐联系时，学姐花了很长时间帮我讲每一部分应该回答的思路，比如part1问“Do you like…”,“Is it…”等一般疑问句，一般就是“直接给观点+给原因1+举例1”这样的回答思路；“why”,”how”这些特殊疑问句可以先总起“there are some reasons…”再分条解释，套路也是原因+举例，必要时给对比。听完之后，我才大概明白该怎么更合理地回答考官的问题，学姐还建议我每道题用雅思哥app录音，然后关注自己的发音等问题，以及回答是否饱满，感觉这个时候自己才明白怎么备考口语。</p>
+<p>所以口语这块还是切忌闭门造车，找小伙伴陪练也好过自己闷头苦练。</p>
+<h2 id="听力"><a href="#听力" class="headerlink" title="听力"></a>听力</h2><p>听力是我首先着重克服的一关，因为刚开始我的水平就稳定在5.5左右，不太保险，我的做法一般就是先做完一套真题，再对答案纠错，再听一般知道正确答案怎么来，然后对照原文积累关键词汇。这样坚持下来，再加上路上用耳机多听听当天刷的题，就能把真题好好利用了。</p>
+<h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>说实话，小镇做题家-哑巴英语练习者最擅长的只有阅读了，我就是在最开始作了几套剑雅题，看了看有什么题型，然后发现自己比较容易地7分+，后面也就不管它了，最后适应机考的时候再捡回来重新找阅读手感，然后就上考场了。</p>
+<p>阅读最重要的就是掌握平行阅读法（边阅读边做题），以及同义替换（正确答案往往以原文的同义替换的形式呈现）</p>
+<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><h1 id="其他小建议"><a href="#其他小建议" class="headerlink" title="其他小建议"></a>其他小建议</h1><h2 id="考试前-考场选择等"><a href="#考试前-考场选择等" class="headerlink" title="考试前-考场选择等"></a>考试前-考场选择等</h2><p>以前纸笔考的说法是尽量选小城市，以及非大学考点，这样可以借助正态分布将自己分布到稍高的分数，但是我观察到机考不再适用于这一窍门，因为机考是随机匹配在线的考官，而不是一位考官负责同一考场一天里的考生。</p>
+<p>所以大家还是方便考试就好。</p>
+<h2 id="考试中-机考操作等"><a href="#考试中-机考操作等" class="headerlink" title="考试中-机考操作等"></a>考试中-机考操作等</h2><p>机考操作对我这种研究生阶段总是对着电脑屏幕，也写过英文论文的人来说，比较友好，虽然自己打字速度没有很快，但是还是比较适应屏幕上做题的。总体来说，机考优势对于我们学生来说来是更明显一些，尤其对于我这种写字不好看，以及打字时喜欢前后修改的人来说，机考就方便太多了。</p>
+<h2 id="考试后-成绩查询等"><a href="#考试后-成绩查询等" class="headerlink" title="考试后-成绩查询等"></a>考试后-成绩查询等</h2><p>这个时候就静静等待就好了，三天一转眼也就过去了。一般来说会在下午两点左右收到邮件，然后去官网查询成绩即可，记得妥善保管成绩单原件，因为只有一份，而且没有电子版。部分学校可能要求额外官方寄送，这个按要求办理即可。</p>
+]]></content>
+      <categories>
+        <category>实用技术</category>
+      </categories>
+      <tags>
+        <tag>备考</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>喜欢作为女歌手的IU</title>
     <url>/2020/12/25/%E5%96%9C%E6%AC%A2%E4%BD%9C%E4%B8%BA%E5%A5%B3%E6%AD%8C%E6%89%8B%E7%9A%84IU/</url>
     <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>在韩娱，跳而优则唱，唱而优则演，爱豆、歌手、演员这样的形象都是比较区分鲜明的，光是男团女团出道的爱豆竞争就已经非常激烈了。但就是有一位偶像，同时把歌手、爱豆和演员的形象都经营得相当不错，取得了非常高的成就。因为我是听歌入坑的，所以，更加喜欢安静唱歌的——李知恩（IU）</p>
@@ -163,6 +195,11 @@
 <p>“我不是因为IU一直很明朗才喜欢她，而是因为她有克服伤痛的过程，通过努力变成优秀的人，变成为周围带来好的影响力的人，让我觉得有要学习的地方，很有同感。不会有没有伤痛的创作，因为将内心的伤痛公之于众，所以成为了艺术。”————20210327</p>
 <p>最近又感觉到，虽然IU的唱功和实力毋庸置疑，但是IU的歌曲（或者具体到live）让这么多人产生共鸣或感动的原因，更是因为她歌声里面的真情实意啊。听IU翻唱中文歌（《爱情》、《样》、《斑马斑马》等）有感————20210426</p>
 <p>今天傍晚时分，在吃饭回来的路上听到了校园广播中播放的IU的歌，还是我最喜欢的《Blueming》哈哈，（上次听到了许嵩新专中的《科幻》）————20210524</p>
+<p>草莓月亮，听到了IU的新歌，期待好事发生，可是好事没有完全发生，只有我去的天津，似乎也谈不上什么太幸福的事情。————20211020</p>
+<p>“当你们在我唱抒情歌的时候睡觉时，我绝对不会觉得难过，那反而是给我最高的赞美。”————20211025</p>
+<p>正在日常重温IU的Love Poem演唱会，突然想起专辑详情里的介绍很有意思，特此记录：“人连所谓的利他主义，都建立在利己之上”，目睹所爱之人渐渐被孤立是痛苦的。什么事都无法为对方做，只能默默守护的状态令人难受，催促一般传递给对方的鼓励与那些安慰的话语，常常让我产生是完全在为对方着想错觉。无论看到我的谁痛苦，我依旧都无法置身事外，但现如今我明白了，我的这些行为并非完全为了照顾或安慰对方，只是我想看到对方平和的日常状态而发出的深切请求。因为是无耻拜托的立场，所以只有最渺小的期待，请听一下这首诗，还有，请活着。没有人能够终生背负他人的一生，但若是方向一致无论多远都能相伴走下去。并且我也习惯了为我爱的人们唱歌，无论多久。正如我做音乐收到了来自这个世界的许多诗一样，我也会将包含真心的诗句勤劳的写下去。就这样相互倾听对方的诗，或深或浅的、活下去就好。</p>
+<p>还有一句：虽然文学都没有所谓的正确答案，但在有限的解读中自由度最大的便是诗。只要包含作家的真情，诗歌可以适用于任何形式的内容。无论“诗人”还是“艺术”亦或是“灵感”，通过本人之口亲自讲述这些“作品”类产物时难免会因为一些羞耻的表达而些许紧张，这样的我之所以厚着脸皮为专辑起名为“Love poem”却没有丝毫羞耻之感，是因为这里承载的都是我的真心。</p>
+<p>“在我公开了的音乐形象之间夹杂着的那些碎片，即使没有公开过，当然都是我爱着的歌曲们，承载着我的回忆，但这些歌曲比起组成一副完美的画面，我觉得更适合组成为一副碎片画，所以把五首歌组成一副碎片画，会不会能更好地把我想说的话传达给你们呢，所以定了《碎片集》这个名字。”————期待2021年12月29日的新专辑~</p>
 ]]></content>
       <categories>
         <category>爱好分享</category>
@@ -201,6 +238,25 @@
       </tags>
   </entry>
   <entry>
+    <title>工科生坠入情网，故尝试证明</title>
+    <url>/2022/01/25/%E5%B7%A5%E7%A7%91%E7%94%9F%E5%9D%A0%E5%85%A5%E6%83%85%E7%BD%91%EF%BC%8C%E6%95%85%E5%B0%9D%E8%AF%95%E8%AF%81%E6%98%8E/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3f7e5f05c300fcc3a78486ff7ad1d3bbe72d149e0cdefe64840bd9c20823ea5c">98d5189579312661ca4dbd400a384448bbbccf0967e7f577eecba46ace1f6ff81766d4465ea5ea33729bf10af5fcdff98e54066b6ca96376571a11ee68852be456cade510a997d2fa7f244c7f6f932bd62752ac886ca37d183775b71e564b5c82fc04ef8224451a22dcf373151b3cba22607db249b51342debae672df6d385f72dace9012f947533f7140ac6d70c79ba3b81d3d18f3cde4a4a395d7db2f4c8b5a70473f7217442968b82df6f2019cfff52b75e2a61b3c43858128b1e1a059eafd59008f98df37211d7a4ca8cc45084a8730f679408acc493274e0b08ead9ae31991d3fbb77ce39515cae8f463f5f785d2ad06821b6edc2f021d671a4b63c846fc33ee104faaa8a974b6ddc21206d8f00fee4b8f3ad8976f9c6d7000383a268feaadc5bbbccd93551c53414bf5eecd1cb83978d592bd4a334df0e0b0a8f0c12c92a86674a5f0b310828742d15cd88b0c055a1fe5974bf7581ff673444c0f857889270975597691dbcb35e188073a530c5f9bd246113de35392f2f7d6232053852b79e616a99eae47b16574df590bd57fb03eea102ea9025b309a503bec69cc5e8312c3834797fb48eaf528fc7301bb1c1f86df9990f91f33b31d4bee7ac51a65f242e117488a3e71fa5e9aa601c367f3bf62a01fea5f698fac78b158ab9a689ec97bda432959857f3312d224a50037ca10d5d28a619cea015d6569a72171cb7cd19c35623d2dd16bee130a252d1f47e62a66e96b0c4719aa2a573327db3c7a3b1a2ba2a9ab9e854ae38fbe98ddb27c1a8e703cf07fe62eee8f16c5c4752c4f5424269b6c3d3115c87c394eaae6529a8e9feeee458931413386b1b3ce96169da33a33a9345371cd7878ae34aa673240791bd1d56e2bea6167a14e14378df543f911615076f002280504818518137e868778e934044de5bdabb8b4c0b050a49faf283995ea295afb7e428e451d9d44d20d5a578ddb339c2fcb27706c87266a652289df845af6bdcedf967a5582258f664a0f576fc16e07dea66fbff391986223199f1841d0a92960183f6843f237f598b97bcd691c3ec8da1b4419ae7471082faae8689c2ba1e87cbed1aad16ea643fa5746a011cf993d101ddfbd48e013c1adabc20932101ff4475c1e55f8189e50d54ad845e6deecb1306d2ba14127d1832ffd9f19112782eaab27a7d80e6aba37ab7f2e1e69fbee89ccfa94161fd9fcf3a9d49dd41e8f3fc20ed65578ba7581c5905baba33634ee7ec8b2f51455761e975bfd235d24684639b724ef1d36c4bc347649c2e48e6f7d2881c18f4e597807dba4cdf06d828192cad1fe3407733383f1d9ae354a1dac68267af1c7d3afdc5ffb1fd91add6332998a7c775881261d3bf84ec038340052ce23ad4d940b02a29cee880b3de6d9c669513fb3801c9bc181ab659c71bbd5c456b2fd9040e23bc2842ba1d2dd9180416c6561db8dac5d2ec136aafe850339d6beea6664eed9295a407e338c7488179b9e2bfea777b4d361816def5d4d49f2433216ecd3497bfe2fdefcdd559fcf80e9a8f44bd3e6e79a875d3a28313</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>心路历程</category>
+      </categories>
+  </entry>
+  <entry>
     <title>最后的致你</title>
     <url>/2021/09/01/%E6%9C%80%E5%90%8E%E7%9A%84%E8%87%B4%E4%BD%A0/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -218,6 +274,23 @@
       <categories>
         <category>心路历程</category>
       </categories>
+  </entry>
+  <entry>
+    <title>汇总——一些优秀的转载</title>
+    <url>/2021/02/18/%E6%B1%87%E6%80%BB%E2%80%94%E2%80%94%E4%B8%80%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E8%BD%AC%E8%BD%BD/</url>
+    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>专门开一篇博客，用以汇总平时看过的一些优秀的博客，一般涉及领域包括机器学习、matlab和python的编程技术等。</p>
+<a id="more"></a>
+
+<h1 id="matlab的高级绘图技术"><a href="#matlab的高级绘图技术" class="headerlink" title="matlab的高级绘图技术"></a>matlab的高级绘图技术</h1><p>主要包括了绘制三维图、多簇柱状图、渐变色等多种高级图的图形实例和源代码。<br><a href="https://www.cnblogs.com/jeromeblog/p/3396494.html">请点击链接</a></p>
+<h1 id="数据汇总"><a href="#数据汇总" class="headerlink" title="数据汇总"></a>数据汇总</h1><h2 id="公众号：算法数据侠"><a href="#公众号：算法数据侠" class="headerlink" title="公众号：算法数据侠"></a>公众号：算法数据侠</h2><p>包括电力负荷数据、故障数据、图像数据等整理。</p>
+<h2 id="知乎专栏"><a href="#知乎专栏" class="headerlink" title="知乎专栏"></a>知乎专栏</h2><p><a href="https://zhuanlan.zhihu.com/p/147648719">【电力系统】电力各类开源数据下载汇总</a></p>
+]]></content>
+      <categories>
+        <category>实用技术</category>
+      </categories>
+      <tags>
+        <tag>转载</tag>
+      </tags>
   </entry>
   <entry>
     <title>汇总——写python时的常见错误</title>
@@ -360,23 +433,6 @@
       </categories>
       <tags>
         <tag>许嵩</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>汇总——一些优秀的转载</title>
-    <url>/2021/02/18/%E6%B1%87%E6%80%BB%E2%80%94%E2%80%94%E4%B8%80%E4%BA%9B%E4%BC%98%E7%A7%80%E7%9A%84%E8%BD%AC%E8%BD%BD/</url>
-    <content><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p>专门开一篇博客，用以汇总平时看过的一些优秀的博客，一般涉及领域包括机器学习、matlab和python的编程技术等。</p>
-<a id="more"></a>
-
-<h1 id="matlab的高级绘图技术"><a href="#matlab的高级绘图技术" class="headerlink" title="matlab的高级绘图技术"></a>matlab的高级绘图技术</h1><p>主要包括了绘制三维图、多簇柱状图、渐变色等多种高级图的图形实例和源代码。<br><a href="https://www.cnblogs.com/jeromeblog/p/3396494.html">请点击链接</a></p>
-<h1 id="数据汇总"><a href="#数据汇总" class="headerlink" title="数据汇总"></a>数据汇总</h1><h2 id="公众号：算法数据侠"><a href="#公众号：算法数据侠" class="headerlink" title="公众号：算法数据侠"></a>公众号：算法数据侠</h2><p>包括电力负荷数据、故障数据、图像数据等整理。</p>
-<h2 id="知乎专栏"><a href="#知乎专栏" class="headerlink" title="知乎专栏"></a>知乎专栏</h2><p><a href="https://zhuanlan.zhihu.com/p/147648719">【电力系统】电力各类开源数据下载汇总</a></p>
-]]></content>
-      <categories>
-        <category>实用技术</category>
-      </categories>
-      <tags>
-        <tag>转载</tag>
       </tags>
   </entry>
   <entry>
