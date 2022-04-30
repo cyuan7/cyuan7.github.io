@@ -23,30 +23,33 @@
     var CONFIG = {"hostname":"blog-cyuan7.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":-1,"unescape":true,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="我的世界，天大地大">
-<meta property="og:type" content="website">
-<meta property="og:title" content="blog-cyuan7">
-<meta property="og:url" content="https://blog-cyuan7.top/page/3/index.html">
+  <meta name="description" content="在韩娱，跳而优则唱，唱而优则演，爱豆、歌手、演员这样的形象都是比较区分鲜明的，光是男团女团出道的爱豆竞争就已经非常激烈了。但就是有一位偶像，同时把歌手、爱豆和演员的形象都经营得相当不错，取得了非常高的成就。因为我是听歌入坑的，所以，更加喜欢安静唱歌的——李知恩（IU）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="喜欢作为女歌手的IU">
+<meta property="og:url" content="https://blog-cyuan7.top/cxy/4c6ba839">
 <meta property="og:site_name" content="blog-cyuan7">
-<meta property="og:description" content="我的世界，天大地大">
+<meta property="og:description" content="在韩娱，跳而优则唱，唱而优则演，爱豆、歌手、演员这样的形象都是比较区分鲜明的，光是男团女团出道的爱豆竞争就已经非常激烈了。但就是有一位偶像，同时把歌手、爱豆和演员的形象都经营得相当不错，取得了非常高的成就。因为我是听歌入坑的，所以，更加喜欢安静唱歌的——李知恩（IU）">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-12-25T03:19:05.000Z">
+<meta property="article:modified_time" content="2021-12-24T10:35:01.756Z">
 <meta property="article:author" content="Cyuan">
+<meta property="article:tag" content="IU">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://blog-cyuan7.top/page/3/">
+<link rel="canonical" href="https://blog-cyuan7.top/cxy/4c6ba839">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>blog-cyuan7</title>
+  <title>喜欢作为女歌手的IU | blog-cyuan7</title>
   
 
 
@@ -191,13 +194,14 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://blog-cyuan7.top/cxy/6a26323">
+    <link itemprop="mainEntityOfPage" href="https://blog-cyuan7.top/cxy/4c6ba839">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/5.gif">
@@ -209,10 +213,9 @@
       <meta itemprop="name" content="blog-cyuan7">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/cxy/6a26323" class="post-title-link" itemprop="url">IPv6入门级理解及常用功能</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          喜欢作为女歌手的IU
+        </h1>
 
         <div class="post-meta">
 
@@ -223,14 +226,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-11-02 00:00:00" itemprop="dateCreated datePublished" datetime="2020-11-02T00:00:00+08:00">2020-11-02</time>
+              <time title="创建时间：2020-12-25 11:19:05" itemprop="dateCreated datePublished" datetime="2020-12-25T11:19:05+08:00">2020-12-25</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-04-21 11:14:13" itemprop="dateModified" datetime="2021-04-21T11:14:13+08:00">2021-04-21</time>
+                <time title="修改时间：2021-12-24 18:35:01" itemprop="dateModified" datetime="2021-12-24T18:35:01+08:00">2021-12-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -238,11 +241,22 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">实用技术</span></a>
+                  <a href="/categories/%E7%88%B1%E5%A5%BD%E5%88%86%E4%BA%AB/" itemprop="url" rel="index"><span itemprop="name">爱好分享</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%88%B1%E5%A5%BD%E5%88%86%E4%BA%AB/%E9%9F%B3%E4%B9%90/" itemprop="url" rel="index"><span itemprop="name">音乐</span></a>
                 </span>
             </span>
 
           
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
   <span class="post-meta-item">
     
@@ -251,8 +265,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/cxy/6a26323#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/cxy/6a26323" itemprop="commentCount"></span>
+    <a title="valine" href="/cxy/4c6ba839#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/cxy/4c6ba839" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -262,14 +276,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>717</span>
+              <span>2.4k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -281,16 +295,30 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>在这篇博客，你将理解IPv6离我们有多近，并简单测试自己的网络是否支持IPv6，以及利用支持IPv6的网络可以实现什么功能。笔者水平有限，因此本博客不涉及太多原理部分，只涉及该技术的使用。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/cxy/6a26323#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+        <script src="\assets\js\APlayer.min.js"> </script><p>在韩娱，跳而优则唱，唱而优则演，爱豆、歌手、演员这样的形象都是比较区分鲜明的，光是男团女团出道的爱豆竞争就已经非常激烈了。但就是有一位偶像，同时把歌手、爱豆和演员的形象都经营得相当不错，取得了非常高的成就。因为我是听歌入坑的，所以，更加喜欢安静唱歌的——李知恩（IU）</p>
+<a id="more"></a>
+
+<h1 id="一首《好日子》，让自己过上好日子"><a href="#一首《好日子》，让自己过上好日子" class="headerlink" title="一首《好日子》，让自己过上好日子"></a>一首《好日子》，让自己过上好日子</h1><p>一开始听到IU还是发小的鼎力推荐，19年的夏天？在车载音响里首次听到了《好日子》，听到了三段高音，后来慢慢有意无意地去了解，知道有这样的一位歌手，就在不远的韩国，一人顶得上多支女团。</p>
+<h1 id="2019年的《Love-Poem》专辑，正式入坑"><a href="#2019年的《Love-Poem》专辑，正式入坑" class="headerlink" title="2019年的《Love Poem》专辑，正式入坑"></a>2019年的《Love Poem》专辑，正式入坑</h1><p>通过多次在网易云上听到IU的一些不错的歌曲，《你和我》之类的，慢慢也开始收藏她的歌曲，于是，在2019年的冬天，听到了这么一个专辑（还好在网易云免费哈哈），听到了《Blueming》这首歌，当时就惊艳到了有没有~，这首歌现在也已经是我2020年听的最多的一首歌了。</p>
+<h1 id="原来是这么优秀的明星啊——观《我的大叔》有感"><a href="#原来是这么优秀的明星啊——观《我的大叔》有感" class="headerlink" title="原来是这么优秀的明星啊——观《我的大叔》有感"></a>原来是这么优秀的明星啊——观《我的大叔》有感</h1><p>在看《我的大叔》以前，我关注的更多是IU的歌曲，其实这部剧之前也有关注过，无奈因为字幕等问题，一直没看下去。终于有一天看完了第一集，然后再一周之内看完了整部剧。。很丧很治愈的一部生活大戏，豆瓣9.4不是没有道理的。IU真的是演出了一部好剧。</p>
+<p>看完之后才知道，哇原来IU这么厉害，来国内唱歌会专门给中国饭唱国语歌已经让我觉得很钦佩了，看完这部剧又觉得IU真的是了不起的女孩啊。2008年出道，如今已13年多，在竞争这么激烈的韩娱圈一直保持在很高的歌手水平真的非常了不起。可这私下里付出的我们又能想象到多少呢，只能说成功绝没有偶然吧。</p>
+<p>希望IU可以一直唱下去，但更希望IU可以去做自己想做的。</p>
+<p>佩服IU，喜欢歌手IU。</p>
+<h1 id="IU语录"><a href="#IU语录" class="headerlink" title="IU语录"></a>IU语录</h1><p>“我原本没什么大目标，得一位很棒，不得也没关系，可以成为最好的女歌手很好，不是也没关系。但因为台下那唯一一位为我呐喊为我应援的粉丝，我第一次有了目标，就是成为能罩得住我粉丝的歌手。”</p>
+<p>“即使有一天你们决心脱饭了，我也希望你不要为曾经浪费在一个甚至不知道你的存在或者做了无用的东西的人身上而后悔。”</p>
+<h1 id="后续碎碎念"><a href="#后续碎碎念" class="headerlink" title="后续碎碎念"></a>后续碎碎念</h1><p>惊闻3月25日IU就要发新专辑了，是IU29岁的正式五辑——“LILAC”，据说是紫丁香的意思，花语可以是致青春的单纯美好。IU要告别自己的20代，迎接人生的崭新的30代了呀！————20210304</p>
+<p>害，还是没忍住，买了正规五辑的实体专辑，IU20代的最后一专了，默默支持一下&gt;.&lt; ————20210316</p>
+<p>三刷《我的大叔》中，感觉自己确实是一个保守的人，看曾经看过的剧有一种“安全感”。至安啊，第七集才第一次露出笑容，我的心都要化了。（话说，李知恩饰演李至安有一个不好的地方，她太漂亮了，所以想要演得真实就不能化妆，甚至要扮丑一点点才可以[笑哭]）————20210319</p>
+<p>终于听到了期待已久的正规五辑《LILAC》，虽然在外面春游，没有静静地去听，但是越听越觉得每首歌都很不错啊。感觉自己也逐渐理解把整个专辑一起听的意义了。感谢IU！I can’t die I’m all in.————20210325</p>
+<p>“我不是因为IU一直很明朗才喜欢她，而是因为她有克服伤痛的过程，通过努力变成优秀的人，变成为周围带来好的影响力的人，让我觉得有要学习的地方，很有同感。不会有没有伤痛的创作，因为将内心的伤痛公之于众，所以成为了艺术。”————20210327</p>
+<p>最近又感觉到，虽然IU的唱功和实力毋庸置疑，但是IU的歌曲（或者具体到live）让这么多人产生共鸣或感动的原因，更是因为她歌声里面的真情实意啊。听IU翻唱中文歌（《爱情》、《样》、《斑马斑马》等）有感————20210426</p>
+<p>今天傍晚时分，在吃饭回来的路上听到了校园广播中播放的IU的歌，还是我最喜欢的《Blueming》哈哈，（上次听到了许嵩新专中的《科幻》）————20210524</p>
+<p>草莓月亮，听到了IU的新歌，期待好事发生，可是好事没有完全发生，只有我去的天津，似乎也谈不上什么太幸福的事情。————20211020</p>
+<p>“当你们在我唱抒情歌的时候睡觉时，我绝对不会觉得难过，那反而是给我最高的赞美。”————20211025</p>
+<p>正在日常重温IU的Love Poem演唱会，突然想起专辑详情里的介绍很有意思，特此记录：“人连所谓的利他主义，都建立在利己之上”，目睹所爱之人渐渐被孤立是痛苦的。什么事都无法为对方做，只能默默守护的状态令人难受，催促一般传递给对方的鼓励与那些安慰的话语，常常让我产生是完全在为对方着想错觉。无论看到我的谁痛苦，我依旧都无法置身事外，但现如今我明白了，我的这些行为并非完全为了照顾或安慰对方，只是我想看到对方平和的日常状态而发出的深切请求。因为是无耻拜托的立场，所以只有最渺小的期待，请听一下这首诗，还有，请活着。没有人能够终生背负他人的一生，但若是方向一致无论多远都能相伴走下去。并且我也习惯了为我爱的人们唱歌，无论多久。正如我做音乐收到了来自这个世界的许多诗一样，我也会将包含真心的诗句勤劳的写下去。就这样相互倾听对方的诗，或深或浅的、活下去就好。</p>
+<p>还有一句：虽然文学都没有所谓的正确答案，但在有限的解读中自由度最大的便是诗。只要包含作家的真情，诗歌可以适用于任何形式的内容。无论“诗人”还是“艺术”亦或是“灵感”，通过本人之口亲自讲述这些“作品”类产物时难免会因为一些羞耻的表达而些许紧张，这样的我之所以厚着脸皮为专辑起名为“Love poem”却没有丝毫羞耻之感，是因为这里承载的都是我的真心。</p>
+<p>“在我公开了的音乐形象之间夹杂着的那些碎片，即使没有公开过，当然都是我爱着的歌曲们，承载着我的回忆，但这些歌曲比起组成一副完美的画面，我觉得更适合组成为一副碎片画，所以把五首歌组成一副碎片画，会不会能更好地把我想说的话传达给你们呢，所以定了《碎片集》这个名字。”————期待2021年12月29日的新专辑~</p>
+
     </div>
 
     
@@ -298,24 +326,92 @@
     
 
     
+       <div>
+         <div>
+    
+        <div style="text-align:center;color: #a9a9a9;font-size:24px;">-------------本文结束 <i class="fa fa-heart"></i> 感谢您的阅读>.<-------------</div>
+    
+</div>
+       </div>
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Cyuan
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://blog-cyuan7.top/cxy/4c6ba839" title="喜欢作为女歌手的IU">https://blog-cyuan7.top/cxy/4c6ba839</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
+          </a>
+        </div>
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+          <div class="post-tags">
+              <a href="/tags/IU/" rel="tag"># IU</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/cxy/99bd2be7" rel="prev" title="汇总——写python时的常见错误">
+      <i class="fa fa-chevron-left"></i> 汇总——写python时的常见错误
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/cxy/695bd700" rel="next" title="至安，抵达安宁了吗——《我的大叔》">
+      至安，抵达安宁了吗——《我的大叔》 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
       </footer>
+    
   </article>
   
   
   
 
 
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
-  </nav>
-
-
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -362,6 +458,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E9%A6%96%E3%80%8A%E5%A5%BD%E6%97%A5%E5%AD%90%E3%80%8B%EF%BC%8C%E8%AE%A9%E8%87%AA%E5%B7%B1%E8%BF%87%E4%B8%8A%E5%A5%BD%E6%97%A5%E5%AD%90"><span class="nav-number">1.</span> <span class="nav-text">一首《好日子》，让自己过上好日子</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2019%E5%B9%B4%E7%9A%84%E3%80%8ALove-Poem%E3%80%8B%E4%B8%93%E8%BE%91%EF%BC%8C%E6%AD%A3%E5%BC%8F%E5%85%A5%E5%9D%91"><span class="nav-number">2.</span> <span class="nav-text">2019年的《Love Poem》专辑，正式入坑</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8E%9F%E6%9D%A5%E6%98%AF%E8%BF%99%E4%B9%88%E4%BC%98%E7%A7%80%E7%9A%84%E6%98%8E%E6%98%9F%E5%95%8A%E2%80%94%E2%80%94%E8%A7%82%E3%80%8A%E6%88%91%E7%9A%84%E5%A4%A7%E5%8F%94%E3%80%8B%E6%9C%89%E6%84%9F"><span class="nav-number">3.</span> <span class="nav-text">原来是这么优秀的明星啊——观《我的大叔》有感</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#IU%E8%AF%AD%E5%BD%95"><span class="nav-number">4.</span> <span class="nav-text">IU语录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%90%8E%E7%BB%AD%E7%A2%8E%E7%A2%8E%E5%BF%B5"><span class="nav-number">5.</span> <span class="nav-text">后续碎碎念</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
